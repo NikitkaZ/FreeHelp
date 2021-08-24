@@ -1,0 +1,279 @@
+body {
+    background-color: #D6E6F2;
+    font-family: 'Nunito', sans-serif;
+    color: #769FCD;
+    line-height: 1.6; /*ìåæñòðî÷íûé îòñòóï*/
+}
+/*header*/
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    height: 50px;
+    background-color: #B9D7EA;
+    
+}
+
+.contener {
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contener2 {
+    border-radius: 50px; /*ñêðóãëåíèå*/
+    background-color: #D6E6F2;
+    height: 30px;
+    width: 160px;
+}
+
+.user {
+    display: inline;
+    vertical-align: top;
+    margin: 0 20px;
+
+    font-size: 30px;
+    text-decoration: none;
+    color: #769FCD;
+}
+
+.user_right {
+    display: inline;
+    vertical-align: top;
+    
+}
+
+.img {
+    height: 25px;
+    width: 35px;
+    margin-top: 12px;
+}
+
+
+/*block_1*/
+
+.block_1 {
+    margin: 0 auto;
+    width: 600px;
+    height: 50px;
+    margin-top: 150px;
+    background-color: #B9D7EA;
+    border-radius: 50px;
+}
+
+.needhelp {
+    text-align: center;
+    color: #769FCD;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+/*block_2*/
+
+.contener3 {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background: #B9D7EA;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+.helptoanother {
+    padding-top:25px;
+    text-decoration: none;
+    color: #769FCD;
+    width: 220px;
+    height: 35px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 30px;
+}
+
+
+.menuofhelp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+
+
+.menu {
+    border: none;
+    resize: none;
+    width: 220px;
+    height: 150px;
+    background: #769FCD;
+    border-radius: 30px;
+}
+
+.formenu {
+    display: inline;
+    vertical-align: top;
+    margin: 0 20px;
+    margin-top: 40px;
+}
+
+textarea.menu {
+    padding: 15px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #B9D7EA;
+}
+
+.help{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+/*Íóæíà ïîìîùü*/
+
+/*form*/
+
+.contener2-1 {
+    width: 600px;
+    height: 750px;
+    background: #B9D7EA;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.flexcontener {
+    display: flex;
+    justify-content: space-between;
+}
+
+.needhelptext {
+    width: 250px;
+    height: 35px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #769FCD;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+input,textarea {
+    outline: none;
+}
+
+.needhelpwindow {
+    border: none;
+    resize: none;
+    width: 220px;
+    height: 150px;
+    background: #769FCD;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+
+textarea.needhelpwindow {
+    padding: 15px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #B9D7EA;
+}
+
+.needhelptags {
+    width: 125px;
+    height: 34px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    color: #769FCD;
+    padding-top: 0px;
+    margin-right: 80px;
+}
+
+.needhelptagswindow {
+    width: 145px;
+    height: 180px;
+    background: #769FCD;
+    border-radius: 30px;
+    margin-right: 70px;
+}
+
+.radio {
+   margin-left: 15px;
+   margin-top: 10px;
+}
+
+.radiolabel {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #B9D7EA;
+}
+
+.needhelpproblem {
+    width: 250px;
+    height: 35px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: #769FCD;
+    margin-top: 20px;
+    margin-left: 175px;
+}
+
+.needhelpproblemwindow {
+    border: none;
+    resize: none;
+    margin-left: 25px;
+    width: 520px;
+    height: 270px;
+    background: #769FCD;
+    border-radius: 30px;
+}
+
+textarea.needhelpproblemwindow {
+    padding: 15px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    color: #B9D7EA;
+}
+
+.buttoncontener {
+    width: 550px;
+    height: 50px;
+    background: #769FCD;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: none;
+    margin-left: 25px;
+    margin-top: 15px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #D6E6F2;
+}
