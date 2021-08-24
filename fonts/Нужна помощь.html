@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FreeHelp</title>
+    <link href="FreeHelp.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="js.js" defer></script>
+</head>
+    
+<body>
+
+    <header class="header">
+        <div class="contener">
+            <a href="настройки.html"><img class="img" src="настройки2.png" /></a>
+            <nav class="user_right">
+                <a class="contener2" style="text-decoration: none;" href="#">
+                    <div class="user">token</div>
+                </a>
+                <a class="user" href="пользователь.html"><img style="margin-top: 7px" src="пользователь.png" /></a>
+            </nav>
+        </div>
+    </header>
+
+    <form name="form" class="contener2-1" id="form" action="FreeHelp.html" method="post">
+        <div class="flexcontener">
+            <div>
+                <p class="needhelptext">Краткое описание</p>
+                <textarea name="needhelp" class="needhelpwindow" id="needhelpwindow"></textarea>
+            </div>
+            <div>
+                <p class="needhelptags">Теги  Темы</p>
+                <div class="needhelptagswindow">
+                    <div>
+                        <input class="radio" id="radio"  type="radio" name="radio" value="study" />
+                        <label for="radio1" class="radiolabel">Учёба</label>
+                    </div>
+                    <div>
+                        <input class="radio" id="radio" type="radio" name="radio" value="work" />
+                        <label for="radio2" class="radiolabel">Работа</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="needhelpproblem">Описание проблемы</p>
+            <textarea name="needhelpproblem" class="needhelpproblemwindow" id="needhelpproblemwindow"></textarea>
+        </div>
+        <input type="submit" value="Опубликовать" name="button" class="buttoncontener" id="buttoncontener" onClick="myF()"/>
+    </form>
+    <script>
+        function myF() {
+            var needhelp = document.getElementById("needhelpwindow").value;
+            var radio = document.getElementById("radio").value;
+            var needhelpproblemwindow = document.getElementById("needhelpproblemwindow").value;
+
+            localStorage.setItem("needhelp", needhelp);
+            localStorage.setItem("radio", radio);
+            localStorage.setItem("needhelpproblemwindow", needhelpproblemwindow);
+            //window.location = "FreeHelp.html";
+        }
+    </script>
+</body>
+</html>

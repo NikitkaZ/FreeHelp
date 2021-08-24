@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FreeHelp</title>
+    <link href="FreeHelp.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script>
+        var needhelp = localStorage.getItem("needhelp");
+        var radio = localStorage.getItem("radio");
+        var needhelpproblemwindow = localStorage.getItem("needhelpproblemwindow");
+        console.log(needhelp + " " + radio + " " + needhelpproblemwindow);
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="contener">
+            <a href="настройки.html"><img class="img" src="настройки2.png" /></a>
+            <nav class="user_right">
+                <a class="contener2" style="text-decoration: none;" href="#">
+                    <div class="user">token</div>
+                </a>
+                <a class="user" href="пользователь.html"><img style="margin-top: 7px" src="пользователь.png" /></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="q">
+        <div class="w">
+            <div>
+                <p class="e">Краткое описание</p>
+                <textarea readonly class="r" id="r"></textarea>
+            </div>
+            <div>
+                <p class="t">Теги  Темы</p>
+                <textarea readonly class="y" id="u"></textarea>
+            </div>
+        </div>
+        
+        <div>
+            <p class="i">Описание проблемы</p>
+            <textarea readonly class="o" id="o"></textarea>
+        </div>
+        <input type="button" value="Помочь" name="button" class="p" id="p" />
+    </div>
+    <script>
+        document.getElementById("r").innerHTML = needhelp;
+        document.getElementById("u").innerHTML = radio;
+        document.getElementById("o").innerHTML = needhelpproblemwindow;
+    </script>
+</body>
+</html>
