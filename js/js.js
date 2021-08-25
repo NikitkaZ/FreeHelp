@@ -11,7 +11,7 @@ function checkForm(event) {
     var fail = "";
 
     if (needhelp == "" || radio == "" || needhelpproblem == "")
-        fail = "Заполните все поля";
+        fail = "Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ";
     
     if (fail != "") {
         alert(fail) ;
