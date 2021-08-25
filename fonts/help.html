@@ -41,14 +41,15 @@
             <p class="i">Описание проблемы</p>
             <textarea readonly class="o" id="o"></textarea>
         </div>
-        <form action="https://nikitkaz.github.io/FreeHelp/" >
-            <input type="submit" value="Помочь" name="button" class="p" id="p" />
-        </form>
+        <input type="submit" value="Помочь" name="button" class="p" id="p" onClick="myF2()" />
     </div>
     <script>
         document.getElementById("r").innerHTML = needhelp;
         document.getElementById("u").innerHTML = radio;
         document.getElementById("o").innerHTML = needhelpproblemwindow;
+        function myF2() {
+            
+        }
     </script>
 </body>
 </html>
