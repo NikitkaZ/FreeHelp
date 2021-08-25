@@ -20,7 +20,7 @@ function checkForm(event) {
     }
     else {
         
-        window.location = 'FreeHelp.html';
+        window.location = '/FreeHelp/';
        
         return false;
     }
