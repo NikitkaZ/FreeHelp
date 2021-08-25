@@ -20,7 +20,7 @@ function checkForm(event) {
     }
     else {
         
-        window.location = '/FreeHelp/';
+        window.location = 'https://nikitkaz.github.io/FreeHelp/';
        
         return false;
     }
